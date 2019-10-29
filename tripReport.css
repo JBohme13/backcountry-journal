@@ -1,0 +1,53 @@
+#trip-log-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#trip-type-select {
+    width: 60%;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    height: 24px;
+}
+.trip-input {
+    width: 60%;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    height: 24px;
+}
+
+label {
+    margin-left: 20%;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.edit-log {
+    margin-left: 5%;
+    width: 10%;
+    height: 16px;
+    margin-bottom: 2px;
+}
+
+#nav {
+    text-align: right;
+}
+
+.nav-button {
+    height: 32px;
+    width: 10%;
+    margin: 10px;
+}

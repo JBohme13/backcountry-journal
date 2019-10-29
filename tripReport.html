@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link href='tripReport.css' rel='stylesheet' type='text/css' />
+    </head>
+    <nav id='nav'>
+        <button class='nav-button'><a href='home.html'>Home</a></button>
+        <button class='nav-button'><a href='tripReport.html'>Log a trip</a></button>
+        <button class='nav-button'><a href='social.html'>Get inspiration</a></button>
+        <button class='nav-button'><a href='login.html'>Log out</a></button>
+    </nav>
+    <body>
+        <h1>Log a trip</h1>
+        <section id='trip-log-container'>
+            <label for='trip-type-select'>Select your adventure</label>
+            <select id='trip-type-select'>
+                <option>--select one</option>
+                <option>hiking/ backpacking</option>
+                <option>ski/snowboard touring</option>
+                <option>climbing</option>
+                <option>water travel</option>
+                <option>bicycle travel</option>
+            </select>
+            <form>
+                <label for='trip-title'>Trip title</label>
+                <input
+                    type='text'
+                    id='trip-title'
+                    class='trip-input'
+                />
+                <label for='trip-location'>Trip location</label>
+                <input
+                    type='text'
+                    id='trip-location'
+                    class='trip-input'
+                />
+                <h2>the rest of the form will vary based on the type of trip taken</h2>
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+#new-user-form {
+    width: 80%;
+    margin-right: 40%;
+    margin-left: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#register-sub-banner {
+    text-align: center;
+}
+
+.input {
+    margin: 10px;
+    height: 32px;
+    width: 100%;
+}
+
+button {
+    width: 60%;
+    margin-left: 20%;
+    margin-right:20%
+}
